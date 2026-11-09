@@ -1,0 +1,51 @@
+/* ==========================================================================
+   1. ESTILO GERAL DA PÁGINA (BODY)
+   ========================================================================== */
+body {
+    background-color: #121212; /* Cor de fundo escura e confortável */
+    color: #ffffff;            /* Cor de todas as letras em branco */
+    font-family: Arial, sans-serif; /* Fonte simples e limpa */
+    padding: 20px;
+}
+
+/* ==========================================================================
+   2. MODELO FLEXBOX (TRÊS SEÇÕES LADO A LADO)
+   ========================================================================== */
+.container-principal {
+    display: flex;         /* Ativa o Flexbox para colocar os itens lado a lado */
+    flex-direction: row;   /* Força as colunas a ficarem em linha (uma do lado da outra) */
+    gap: 20px;             /* Cria um espaço de 20px entre as colunas */
+    flex-wrap: wrap;       /* Se a tela for pequena (celular), joga as colunas para baixo */
+}
+
+/* Configuração de cada uma das 3 colunas/cards */
+.secao-card {
+    flex: 1;               /* Faz as 3 colunas dividirem o espaço da tela igualmente */
+    min-width: 250px;      /* Impede que as colunas fiquem esmagadas */
+    padding: 15px;
+    border-radius: 8px;    /* Arredonda os cantos dos blocos */
+}
+
+/* Separador de espaço simples para os itens dentro das colunas */
+.bloco-item {
+    margin-bottom: 30px;
+}
+
+/* ==========================================================================
+   3. PADRONIZAÇÃO DE TÍTULOS (CLASSES)
+   ========================================================================== */
+.titulo-secao {
+    font-size: 24px;       /* Tamanho padrão do texto dos títulos */
+    text-align: center;    /* Centraliza os títulos H2 */
+    margin-bottom: 20px;   /* Cria um espaço abaixo do título */
+}
+
+/* ==========================================================================
+   4. PADRONIZAÇÃO DE IMAGENS E FONTES
+   ========================================================================== */
+.imagem-padrao {
+    width: 100%;           /* Faz a foto ocupar toda a largura da coluna dela */
+    height: 180px;         /* Deixa todas as imagens com a mesma altura fixa */
+    object-fit: cover;     /* Corta a foto perfeitamente sem distorcer ou esticar */
+    border-radius: 4px;    /* Arredonda de leve os cantos das fotos */
+}

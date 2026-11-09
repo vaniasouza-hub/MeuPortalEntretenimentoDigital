@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portal de Entretenimento Digital</title>
+    
+      <!-- 1º VÍNCULO: O arquivo de Reset limpa o navegador -->
+    <link rel="stylesheet" href="reset.css">
+
+    <!-- 2º VÍNCULO: O seu CSS principal atualizado para o nome em português -->
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        /* Padronização das fontes de texto usando classe */
+        .texto-conteudo {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: #e0e0e0;
+            margin-top: 10px;
+        }
+
+        /* IDs para aplicar cores de fundo exclusivas para cada card/seção */
+        #card-filmes {
+            background-color: #1e1e24;
+            border-top: 4px solid #ffcc00; /* Detalhe amarelo */
+        }
+
+        #card-musicas {
+            background-color: #16222f;
+            border-top: 4px solid #ff4500; /* Detalhe laranja/vermelho */
+        }
+
+        #card-games {
+            background-color: #1b281b;
+            border-top: 4px solid #32cd32; /* Detalhe verde */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 3. CSS INLINE: Aplicado diretamente no título principal do portal -->
+    <h1 style="color: #ffffff; text-align: center; font-family: sans-serif; font-size: 2.8rem; margin-bottom: 40px; text-transform: uppercase; letter-spacing: 2px;">
+        Meu Portal de Entretenimento
+    </h1>
+
+    <!-- CONTAINER FLEXBOX (Segura as 3 seções lado a lado) -->
+    <div class="container-principal">
+        
+        <!-- COLUNA 1: FILMES E SÉRIES -->
+        <div class="secao-card" id="card-filmes">
+            <h2 class="titulo-secao">Filmes e Séries</h2>
+            
+            <div class="bloco-item">
+                <img src="potter.jpg" alt="Harry Potter" class="imagem-padrao">
+                <p class="texto-conteudo">Harry Potter é um garoto órfão que descobre ser um bruxo e passa a frequentar a Escola de Magia de Hogwarts. Ao lado de seus amigos, ele aprende a dominar seus poderes enquanto enfrenta o temível bruxo das trevas, Lord Voldemort.</p>
+            </div>
+            
+            <div class="bloco-item">
+                <img src="umaCasaPradaria.jpg" alt="Uma Casa na Pradaria" class="imagem-padrao">
+                <p class="texto-conteudo">A série Uma Casa na Pradaria (Netflix) acompanha a jornada da unida família Ingalls em busca de um novo começo no Oeste americano. Na fronteira selvagem, eles enfrentam as forças da natureza, doenças e disputas por terras enquanto lutam para construir um lar.</p>
+            </div>
+            
+            <div class="bloco-item">
+                <img src="coods.jpg" alt="Os Croods" class="imagem-padrao">
+                <p class="texto-conteudo">Os Croods são uma família pré-histórica que é forçada a deixar sua caverna segura após a destruição de seu lar. Guiados por um jovem nômade moderno, eles viajam por um mundo fantástico e cheio de perigos em busca de um novo refúgio.</p>
+            </div>
+        </div>
+
+        <!-- COLUNA 2: MÚSICAS E PODCASTS -->
+        <div class="secao-card" id="card-musicas">
+            <h2 class="titulo-secao">Música e Podcasts</h2>
+            
+            <div class="bloco-item">
+                <img src="oRappa.jpg" alt="Banda O Rappa" class="imagem-padrao">
+                <p class="texto-conteudo">O Rappa foi uma das maiores bandas do rock e reggae brasileiro, conhecida por suas letras de forte impacto social e misturas de ritmos. Com o vocalista Marcelo Falcão, o grupo marcou gerações com hinos marcantes sobre as realidades das periferias, como "A Minha Alma" e "Pescador de Ilusões".</p>
+            </div>
+
+            <div class="bloco-item">
+                <img src="podcast.jpg" alt="Jota Jota Podcast" class="imagem-padrao">
+                <p class="texto-conteudo">O Jota Jota Podcast, comandado por Joel Jota, é um dos maiores programas de negócios, carreira e alta performance do Brasil. Ele traz conversas inteligentes com as pessoas mais influentes do país para compartilhar mentorias, estratégias e lições de vida.</p>
+            </div>
+
+            <div class="bloco-item">
+                <img src="chimarruts.jpg" alt="Chimarruts" class="imagem-padrao">
+                <p class="texto-conteudo">Chimarruts é uma grande banda brasileira de reggae formada em Porto Alegre que conquistou o país com suas melodias cativantes. Com letras que transmitem mensagens de amor, paz e positividade, o grupo emplacou grandes sucessos como "Do Lado de Cá" e "Versos Simples".</p>
+            </div>
+        </div>
+
+        <!-- COLUNA 3: GAMES E TECNOLOGIA -->
+        <div class="secao-card" id="card-games">
+            <h2 class="titulo-secao">Games e Tecnologia</h2>
+            
+            <div class="bloco-item">
+                <img src="IA.jpg" alt="Inteligência Artificial" class="imagem-padrao">
+                <p class="texto-conteudo">Hoje a IA é fundamental para automatizar tarefas repetitivas, otimizar processos industriais e acelerar descobertas científicas complexas. Atualmente transforma o cotidiano das pessoas ao personalizar serviços, melhorar diagnósticos médicos e facilitar o acesso à informação.</p>
+            </div>
+
+            <div class="bloco-item">
+                <img src="superMario.png" alt="Super Mario" class="imagem-padrao">
+                <p class="texto-conteudo">Super Mario é uma famosa franquia de jogos da Nintendo que acompanha as aventuras do encanador Mario no Reino dos Cogumelos. O objetivo principal é atravessar fases repletas de obstáculos e inimigos para salvar a Princesa Peach das garras do vilão Bowser.</p>
+            </div>
+
+            <div class="bloco-item">
+                <img src="minecraft.jpg" alt="Minecraft" class="imagem-padrao">
+                <p class="texto-conteudo">Minecraft é um jogo de sobrevivência e construção em mundo aberto feito de blocos onde o jogador tem total liberdade para criar. É possível minerar recursos, construir estruturas incríveis, fabricar itens e enfrentar monstros para sobreviver ou apenas explorar.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
