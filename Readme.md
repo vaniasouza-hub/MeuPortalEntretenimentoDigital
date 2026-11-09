@@ -1,11 +1,11 @@
-# Sites Favoritos:
+# Meu Portal de Entretenimento Digital:
 
-Projeto desenvolvido em HTML para guardar meus sites favoritos.
+Projeto desenvolvido em HTML e css para guardar meus arquivos de entretenimentos favoritos.
 ---
 
 ## 📌 Sobre o Projeto
 
-O programa exibe imagens e links de direcionamento para os sites.
+Este é um portal web que reúne informações e breves resumos sobre filmes, séries, músicas, podcasts, games e tecnologia. O principal objetivo do projeto foi aplicar e consolidar conceitos fundamentais de desenvolvimentos de sites.
 
 ## 🛠️ Tecnologias 
 
@@ -34,7 +34,7 @@ Antes de começar, você precisará ter instalado em sua máquina:
 
 1. **Clonar o repositório via GitHub:**
 ```bash
-git clone https://github.com/vaniasouza-hub/sites_favoritos.git
+git clone https://github.com/vaniasouza-hub/MeuPortalEntretenimentoDigital.git
 
 
 
